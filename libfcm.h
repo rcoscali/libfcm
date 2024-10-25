@@ -26,7 +26,7 @@
 #ifndef __LIBFCM_H__
 
 #include "libfcm/refdir.h"
-#include "libfcm/.h"
-#include "libfcm/.h"
+#include "libfcm/diskfilecontent.h"
+#include "libfcm/buffermem.h"
 
 #endif /* !__LIBFCM_H__ */
