@@ -5,11 +5,9 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(include)
+include_directories(src)
 
-add_executable(libfcm
-        include/buffermem.h
-        include/diskfilecontent.h
-        include/libfcm.h
-        include/refdir.h
-        src/libfcm.c
-        libfcm.h)
+add_library(libfcm.so SHARED
+        src/libfcm.c)
+add_library(libfcm.a STATIC
+        src/libfcm.c)

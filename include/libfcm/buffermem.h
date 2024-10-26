@@ -23,7 +23,7 @@
  */
 #pragma once
 #ifndef __BUFFERMEM_H__
-#ifndef __BUFFERMEM_H__
+#define __BUFFERMEM_H__
 
 
 

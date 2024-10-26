@@ -23,7 +23,7 @@
  */
 #pragma once
 #ifndef __LIBFCM_H__
-#ifndef __LIBFCM_H__
+#define __LIBFCM_H__
 
 #include "libfcm/refdir.h"
 #include "libfcm/diskfilecontent.h"

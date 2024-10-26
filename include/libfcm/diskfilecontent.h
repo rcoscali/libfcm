@@ -1,6 +1,6 @@
-/** @FileInfo refdir.h
+/** @FileInfo diskfilecontent.h
  * 
- * Public header file for refdir features in libfcm library
+ * Public header file for diskfilecontent features of libfcm library
  *
  * Copyright 2024 Rémi COHEN SCALI / EFREI
  *
@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 #pragma once
-#ifndef __REFDIR_H__
-#ifndef __REFDIR_H__
+#ifndef __DISKFILECONTENT_H__
+#define __DISKFILECONTENT_H__
 
 
-#endif /* !__REFDIR_H__ */
+#endif /* !__DISKFILECONTENT_H__ */
