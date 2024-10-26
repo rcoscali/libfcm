@@ -7,7 +7,7 @@ include_directories(.)
 include_directories(include)
 include_directories(src)
 
-add_library(libfcm.so SHARED
+add_library(fcm SHARED
         src/libfcm.c)
-add_library(libfcm.a STATIC
+add_library(fcm_a STATIC
         src/libfcm.c)
