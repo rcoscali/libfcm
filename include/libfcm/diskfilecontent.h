@@ -2,7 +2,7 @@
  * 
  * Public header file for diskfilecontent features of libfcm library
  *
- * Copyright 2024 Rémi COHEN SCALI / EFREI
+ * Copyright ©2024 Rémi COHEN SCALI / EFREI
  *
  * MIT License
  * -----------
