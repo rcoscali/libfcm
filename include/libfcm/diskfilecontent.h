@@ -25,5 +25,7 @@
 #ifndef __DISKFILECONTENT_H__
 #define __DISKFILECONTENT_H__
 
+void FCM_diskFileContent_init(void);
+void FCM_diskFileContent_finalize(void);
 
 #endif /* !__DISKFILECONTENT_H__ */

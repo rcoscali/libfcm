@@ -1,6 +1,6 @@
-/** @FileInfo libfcm.c
+/** @File buffermem.c
  *
- * Implementation file for libfcm library
+ * Implem file for buffermem features in libfcm library
  *
  * Copyright ©2024 Rémi COHEN SCALI / EFREI
  *
@@ -25,25 +25,20 @@
 #include "libfcm.h"
 
 /*
- * FCM_init
+ * FCM_bufferMem_init
  *
- * Initialize libfcm library
+ * Initialize bufferMem feature of libfcm library
  */
-void FCM_init(void)
+void FCM_bufferMem_init(void)
 {
-    FCM_referenceDir_init();
-    FCM_bufferMem_init();
-    FCM_diskFileContent_init();
 }
 
 /*
- * FCM_finalize
+ * FCM_bufferMem_finalize
  *
- * Finalize libfcm library: release memory
+ * Finalize bufferMem feature of libfcm library: release memory
  */
-void FCM_finalize(void)
+void FCM_bufferMem_finalize(void)
 {
-    FCM_referenceDir_finalize();
-    FCM_bufferMem_finalize();
-    FCM_diskFileContent_finalize();
 }
+

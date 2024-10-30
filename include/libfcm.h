@@ -25,8 +25,21 @@
 #ifndef __LIBFCM_H__
 #define __LIBFCM_H__
 
+#ifdef TRUE
+#undef TRUE
+#endif /* !TRUE */
+#define TRUE (1 == 1)
+
+#ifdef FALSE
+#undef FALSE
+#endif /* !FALSE */
+#define FALSE (0 == 1)
+
 #include "libfcm/refdir.h"
 #include "libfcm/diskfilecontent.h"
 #include "libfcm/buffermem.h"
+
+void FCM_init(void);
+void FCM_finalize(void);
 
 #endif /* !__LIBFCM_H__ */

@@ -25,5 +25,14 @@
 #ifndef __REFDIR_H__
 #define __REFDIR_H__
 
+/**
+ * This library functions allows to setup and manage a root directory
+ */
+
+void FCM_referenceDir_init(void);
+void FCM_referenceDir_finalize(void);
+int FCM_referenceDir_is_defined(void);
+void FCM_referenceDir_define(const char* dir);
+const char* FCM_referenceDir_get(void);
 
 #endif /* !__REFDIR_H__ */

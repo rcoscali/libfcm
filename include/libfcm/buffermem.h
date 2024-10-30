@@ -25,6 +25,7 @@
 #ifndef __BUFFERMEM_H__
 #define __BUFFERMEM_H__
 
-
+void FCM_bufferMem_init(void);
+void FCM_bufferMem_finalize(void);
 
 #endif /* !__BUFFERMEM_H__ */
